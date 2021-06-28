@@ -1,0 +1,195 @@
+ul.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222222;
+    height: 100px;
+}
+
+li.logo {
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+  
+li.enlaces a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 38px 16px;
+    text-decoration: none;
+}
+
+li.enlaceTextLogo a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 32px 16px;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+span.pizza{
+    color:#39B24A;
+    font-weight: bolder;
+}
+
+span.front{
+    color:#FC200C;
+    font-weight: bolder;
+}
+
+section.main{
+    background-color: #E5E5E5;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+div.delivery {
+    background-image: url(../img/delivery.png);
+    border-radius: 8px;
+    width: 490px;
+    height: 350px;
+    margin-left: 5px;
+    margin-top:25px;
+    margin-bottom:25px;
+    left:19px;
+    top:135px;
+}
+
+div.podium {
+    background-color: white;
+    border-radius: 8px;
+    width: 490px;
+    height: 350px;
+    margin-left: 5px;
+    margin-top:25px;
+    margin-bottom:25px;
+    left:19px;
+    top:135px;
+}
+
+.freeDelivery{
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 90%;
+}
+
+.topPodium{
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 90%;
+    text-align: center;
+}
+
+span.redText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FC200C;
+}
+
+span.whiteText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: white;
+}
+
+span.blackText{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    color: #222222;
+
+}
+
+div.listPodium {
+    border-radius: 8px;
+    width: 45%;
+    height: 290px;
+}
+
+div.listTitle{
+    margin-top: 60px;
+    margin-left: 20px;
+}
+
+div.imgPodium {
+    border-radius: 8px;
+    width: 45%;
+    height: 290px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.list{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+    margin-left: -16px;
+}
+
+.row{
+    padding: 4px 0px 4px 0;
+}
+
+div.menuFooter{
+    background-color: #222222;
+    width: 50%;
+    height: 150px;
+}
+
+div.logoFooter{
+    background-color: #222222;
+    width: 50%;
+    height: 150px;
+}
+
+ul.footerMenu {
+    list-style-type: none;
+    overflow: hidden;
+}
+
+li.enlacesMenuFooter a {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F3F3F3;
+    display: block;
+    text-decoration: none;
+    padding: 4px 0px 4px 0px;
+}
+
+li.logoFooter {
+    float: right;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+li.enlaceTextLogoFooter a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 32px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 20px;
+}
