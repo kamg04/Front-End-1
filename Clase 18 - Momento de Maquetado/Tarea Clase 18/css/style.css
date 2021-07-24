@@ -1,0 +1,488 @@
+/*Mobile*/
+@font-face{
+    src: url('../Fonts/Roboto/Roboto-Light.ttf');
+    font-family: 'Roboto';
+}
+
+body{
+    background-color: white;
+    font-family: 'Roboto', "Times New Roman";
+    margin: 0;
+    padding: 0;
+}
+
+nav.navbar1{
+    background-color: #222222;
+    color: #ffffff;
+    width: 100%;
+    height: 20px;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+nav ul{
+    display: none;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 20px;
+}
+
+nav.navbar1 ul.navbar1{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-right: 30px;
+    
+}
+    
+nav ul li{
+    color:#ffffff;
+    font-size: 0.825rem;
+    z-index: 22;
+    margin: 0 10px;
+    padding: 0 0 10px;
+    padding-bottom: 10px;
+    border-left: 1px solid transparent;
+}
+
+nav.navbar1 ul li{
+    color:#ffffff;
+    font-size: 0.825rem;
+    z-index: 22;
+    margin: 0 10px;
+    padding: 0 0 10px;
+    padding-bottom: 10px;
+    border-left: 1px solid transparent;
+}
+
+nav.navbar1 ul.menuIdiomas li a{
+    text-decoration: none;
+    color:#ffffff;
+    font-size: 0.825rem;
+}
+
+nav.navbar1 ul.menuIdiomas li a i{
+    margin-left: 5px;
+}
+
+header nav.navbar1{
+    display: none;
+}
+
+header nav.navbar1 ul{
+    display:flex;
+    align-items: center;
+}
+
+header nav.navbar2 {
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav.navbar2 img.logo{
+    padding: 20px;
+    width: 166.38px;
+    height: 23px;
+}
+
+header nav.navbar2 ul li {
+    font-size: 0.925rem;
+    line-height: 0.938rem;
+}
+
+header nav.navbar2 ul li::before{
+    content: url('../img/patas.png');
+    margin-right: 5px;
+}
+
+.navbar2 img.menu-mobile{
+    height: 16px;
+    width: 16px;
+    margin-right: 20px;
+}
+
+section.banner{
+    width: 100%;
+    background-color: rgb(250, 250, 232);
+    background-image: url('../img/foto.png');
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 550px;
+    display: flex;
+    justify-content: center;
+}
+
+section.banner div.text{
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+    justify-content: center;
+}
+
+section.banner div.text h2{
+    font-size: 1.875rem;
+    line-height: 2.188rem;
+    background-color: #ffffff;
+    color: #3C2313;
+    padding: 10px;
+    margin: 5px;
+}
+
+section.banner div.text p{
+    font-size: 1rem;
+    line-height: 1.188rem;
+    color: #3C2313;
+    margin: 5px;
+}
+
+section.banner div.text button{
+    font-size: 1rem;
+    line-height: 1.188rem;
+    color: #ffffff;
+    background-color: #F0A83E;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+section.featuredProductsTitle{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+section.featuredProductsTitle img{
+    margin:auto;
+    margin-top: 2%;
+}
+
+section.featuredProductsTitle h1{
+    color: #3C2313;
+    font-family: 'Roboto', 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.938rem;
+    margin: 0 15px;
+    text-align: center;
+}
+
+section.featuredProductsTitle ul{
+    display: flex;
+    justify-content: center;
+}
+
+section.featuredProductsTitle ul li{
+    font-size: 0.938rem;
+    line-height: 1.125rem;
+    padding-right: 30px;
+    list-style: disc;
+}
+
+ul li{
+    list-style:none;
+}
+
+section.featuredProductsImages{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+}
+
+section.featuredProductsImages div{
+    margin: 2%;
+    background-color: #FBFAF6;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+section.featuredProductsImages div span{
+    color: #F0A83E;
+    margin-bottom: 15px;
+}
+
+section.featuredProductsImages div h3{
+    margin-bottom: 2px;
+}
+
+section.contactForm{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section.contactForm form{
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.contactForm h2 {
+    color: #3C2313;
+    font-size: 1.563rem;
+    line-height: 1.875rem;
+    font-weight: 700;
+}
+
+section.contactForm input{
+    background: #3C2313;
+    border-radius: 18px;
+    color: #ffffff;
+    width: 195px;
+    height: 40px;
+    margin-bottom: 5px;
+    padding-left: 15px;
+    border: none;
+}
+
+section.contactForm form div{
+    display: flex;
+    margin-top: 5%;
+}
+
+section.contactForm form .resetear{
+    width: 140px;
+    background-color: #8A8787;
+    border-radius: 15px;
+    color: #Ffffff;
+    margin-right: 10%;
+    padding: 8px;
+    border: none;
+}
+
+section.contactForm form .enviar{
+    width: 140px;
+    background-color: #F0A83E;
+    border-radius: 15px;
+    color:#ffffff;
+    padding: 8px;
+    border: none;
+}
+
+section.contactForm form ::placeholder{
+    color:#ffffff;
+}
+
+section.newsletterForm{
+    background-color: #F0A83E;
+    color:#ffffff;
+    height: auto;
+    padding: 20px;
+    margin-top: 5%;
+}
+
+section.newsletterForm div{
+    min-width: 100%;
+    margin-bottom: 15px;
+}
+
+section.newsletterForm img{
+    margin-right: 1%;
+}
+
+section.newsletterForm form{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.newsletterForm label{
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+    font-weight: 700;    
+}
+
+section.newsletterForm input{
+    background: #ffffff;
+    border-radius: 15px;
+    color: #A0A0A0;
+    width: 185px;
+    height: 40px;
+    padding-left: 15px;
+    border: none;
+}
+
+section.newsletterForm button.suscripcion{
+    background: #3C2313;
+    border-radius: 15px;
+    color: #ffffff;
+    width: 70px;
+    height: 40px;
+    font-size: 0.563rem;
+    border: none;
+}
+
+section.about{
+    background-color: #3C2313;
+    padding: 20px;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+
+section.about div.logoFooter{
+    margin-top: 90px;
+    padding: 20px;
+    width: 166.38px;
+    height: 23px;
+}
+
+section.about div.container{
+    display:flex;
+    flex-direction: column;
+}
+
+section.about div.navbar2{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+section.about div.content{
+    display:flex;
+    margin: 10px;
+
+}
+section.about div.content div.option1{
+    margin-right: 30px;
+}
+
+section.about div.content div.option2{
+    display: flex;
+    flex-direction: column;
+}
+
+section.about div.content div.option2 h4{
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+    font-style: normal;
+    color: #ffffff;
+    margin: 0 5px 5px;
+}
+
+section.about div.content div.option2 p{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.825rem;
+    line-height: 0.75rem;
+    color: #8A8787;
+    margin: 0px 5px;
+}
+
+section.redes{
+    text-align: center;
+}
+
+section.redes p{
+    font-weight: bold;
+    font-size: 1.25rem;
+    line-height: 1.438rem;
+    font-style: normal;
+    color: #3C2313;
+    
+}
+
+footer{
+    background-color: #222222;
+    color:#ffffff;
+    text-align: center;
+}
+
+footer p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+@media (min-width:375px){
+    section.newsletterForm input {
+        width: 235px;        
+    }
+    
+}
+
+@media (min-width:425px){
+    section.newsletterForm input{
+        width: 271px;        
+    }
+    section.contactForm input{
+        width: 340px;
+    }
+}
+
+@media (min-width:768px){
+    /*Tablet*/
+    section.newsletterForm{
+        height: 40px;
+    }
+    section.newsletterForm form{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    section.newsletterForm form div{
+        display: flex;
+        min-width: 50%;
+        margin-bottom: 0;
+    }
+    section.newsletterForm input{
+        margin-right: 1%;
+    }
+    section.newsletterForm input{
+        width: 271px;       
+    }
+    section.about{
+        flex-direction: row;
+    }
+}
+
+@media (min-width:992px){
+    /*Desktop*/
+    section.featuredProductsImages{
+        flex-direction: row;
+        text-align: center;
+        justify-content: center;
+    }  
+    nav ul{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        margin-right: 20px;        
+    } 
+    header nav.navbar1{
+        background: #222222;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        height: 20px;
+        width: 100%;
+        display:flex;
+        justify-content: space-between;
+    }
+    .navbar2 img.menu-mobile{
+        display: none;
+    }
+    section.banner{
+       justify-content: flex-end;
+    }
+    section.banner div.text{
+       text-align: center;
+    }
+    section.featuredProductsTitle h1{
+        margin: 15px 0;
+    }
+    section.newsletterForm form div{
+        min-width: 35%;
+    }
+    
+}
